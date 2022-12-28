@@ -1,0 +1,5 @@
+= to-do-cmd
+
+Generate this with
+    to-do-cmd _doc
+After you have described your command line interface
