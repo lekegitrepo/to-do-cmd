@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    to-do-cmd (0.0.1)
+      gli (~> 2.21.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    gli (2.21.0)
+    minitest (5.17.0)
+    rake (0.9.6)
+    rdoc (4.3.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  minitest (~> 5.14)
+  rake (~> 0.9.2)
+  rdoc (~> 4.3)
+  to-do-cmd!
+
+BUNDLED WITH
+   2.2.22
