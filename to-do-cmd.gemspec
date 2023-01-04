@@ -8,8 +8,7 @@ spec = Gem::Specification.new do |s|
   s.homepage = 'http://your.website.com'
   s.platform = Gem::Platform::RUBY
   s.summary = 'A description of your project'
-  s.files = `git ls-files`.split("
-")
+  s.files = `git ls-files`.split("")
   s.require_paths << 'lib'
   s.extra_rdoc_files = ['README.rdoc','to-do-cmd.rdoc']
   s.rdoc_options << '--title' << 'to-do-cmd' << '--main' << 'README.rdoc' << '-ri'
@@ -17,6 +16,6 @@ spec = Gem::Specification.new do |s|
   s.executables << 'to-do-cmd'
   s.add_development_dependency('rake','~> 0.9.2')
   s.add_development_dependency('rdoc', '~> 4.3')
-  s.add_development_dependency('minitest', '~> 5.14')
+  s.add_development_dependency('rspec')
   s.add_runtime_dependency('gli','~> 2.21.0')
 end
